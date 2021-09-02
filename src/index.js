@@ -19,15 +19,15 @@ const myStyle = {
 };
 
 if (hr < 12) {
-  greeting = "Have a good Morning";
+  greeting = "Good Morning!";
   // injects our heading
   myStyle.color = "red";
   // declares gives a value to color: ""
 } else if (hr < 18) {
-  greeting = "Have a good Evening!";
+  greeting = "Good Evening!";
   myStyle.color = "green";
 } else {
-  greeting = "Have a good Night!";
+  greeting = "Good Evening!";
   myStyle.color = "blue";
 }
 
